@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.scroll {
+    width: 100%;
+    max-width: 600px;
+    background-color: gray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.titleScroll {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bodyScroll {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.titleCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-text {
+    color: #333;
+}
